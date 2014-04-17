@@ -1,7 +1,7 @@
 python-program-structure
 ========================
 
-A simple Structure to start Python Applications
+A simple Structure to start Python Applications.
 
 Installed / Dependencies
 -------------------------------------------
@@ -20,7 +20,7 @@ At any time you can build the app with
 
     python setup.py install
 
-and your app will be accessible in your environment
+and your app will be accessible in your environment as a software
 
     > myapp
 
@@ -36,7 +36,7 @@ To test it, you will need py.test (you can install it with '''pip install -U pyt
 
 It will automatically run all the tests which are in the /tests/ folder
 
-How to Generate the documentation
+How to Automatically generate the documentation
 -------------------------------------------
 
 To generate the documentation, I suggest you to use sphinx (you can install it with '''apt-get install python-sphinx''')
