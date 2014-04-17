@@ -31,8 +31,14 @@ How to Test it
 
 To test it, you will need py.test (you can install it with '''pip install -U pytest''')
 
+You can run it manually
+
     cd tests
     py.test
+
+Or directly call it from setup.py
+
+    python setup.py test
 
 It will automatically run all the tests which are in the /tests/ folder
 
